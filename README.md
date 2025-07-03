@@ -83,7 +83,7 @@ walmart_advanced_analysis/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/sunilBisht1103/walmart_advanced_analysis.git
+git clone https://github.com/sunilBisht1103/Walmart_Sales_Analysis.git
 cd walmart_advanced_analysis
 
 
