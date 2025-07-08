@@ -148,6 +148,7 @@ This project is inspired by open Walmart sales datasets and expands on ideas fro
 For collaboration, feel free to connect via GitHub or email: sunilbisht1131995@gmail.com
 
 ---
-##🌟 Contributions Welcome!
+
+## 🌟 Contributions Welcome!
 
 Feel free to fork this repo, add enhancements, or submit pull requests to improve or extend the analysis.
