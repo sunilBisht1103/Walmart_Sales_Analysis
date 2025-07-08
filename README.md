@@ -23,7 +23,7 @@ This project delivers advanced analytics on Walmart's transactional sales data u
 Walmart_Sales_Analysis/
 │
 ├── Data/ # Raw and processed data files
-│ ├── raw/ # Original CSV / SQL dumps
+│ ├── raw_Data/ # Original CSV / SQL dumps
 │ └── processed/ # Cleaned & aggregated datasets
 │
 ├── SQL_Scripts/ # SQL scripts
