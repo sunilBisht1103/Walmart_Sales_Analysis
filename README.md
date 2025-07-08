@@ -90,6 +90,7 @@ cd walmart_advanced_analysis
 pip install -r requirements.txt
 ```
   **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
+  
 5. Explore the Data
    - **Goal**: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
    - **Analysis**: Use functions like `.info()`, `.describe()`, and `.head()` to get a quick overview of the data structure and statistics.
