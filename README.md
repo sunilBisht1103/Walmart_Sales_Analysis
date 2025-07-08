@@ -270,14 +270,18 @@ Expand offerings (e.g., B2B bulk supplies, private-label ranges) to tap varied r
 **Churn Risk Detection (Customers with Low Ratings & Visits)**
 
 1.Activate Pre‑Churn Interventions
--Personalized outreach: Send discounts, tailored recommendations, or engage via their preferred channel (email, SMS, app) .
--Improve onboarding and service: Contact customers with issues (low ratings) to fix problems and boost satisfaction 
--Loyalty and value reinforcement: Offer perks, tiered rewards, or bundling to increase CLV 
+-Personalized outreach: Send discounts, tailored recommendations, or engage via their preferred channel (email, SMS, app).
+
+-Improve onboarding and service: Contact customers with issues (low ratings) to fix problems and boost satisfaction.
+
+-Loyalty and value reinforcement: Offer perks, tiered rewards.
 
 2. Implement Win‑Back & Reactivation Campaigns
 For those already churned or flagged high-risk:
--Timed outreach: Send incentives or exclusive offers at right intervals—too early or too late reduces effectiveness 
--Segmented messaging: Use reasons for churn (e.g., price vs. experience) to craft relevant campaigns
+
+-Timed outreach: Send incentives or exclusive offers at right intervals—too early or too late reduces effectiveness.
+
+-Segmented messaging: Use reasons for churn (e.g., price vs. experience) to craft relevant campaigns.
 
 ## Future Enhancements
 
