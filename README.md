@@ -18,7 +18,7 @@ This project delivers advanced analytics on Walmart's transactional sales data u
 
 ---
 
-##Project Structure
+## Project Structure
 ```plaintext
 Walmart_Sales_Analysis/
 │
@@ -42,7 +42,7 @@ Walmart_Sales_Analysis/
 ------
 
 
-##Key Features
+## Key Features
 
 - **Revenue & Profit Rank of Branches** 
 - **Time-of-Day Sales Impact(Rolling Average by Hour)**
@@ -54,7 +54,7 @@ Walmart_Sales_Analysis/
 
 ---
 
-##Technologies Used
+## Technologies Used
 
 | Tool            | Purpose                             |
 |-----------------|------------------------------------|
@@ -66,14 +66,14 @@ Walmart_Sales_Analysis/
 
 ---
 
-##Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/sunilBisht1103/Walmart_Sales_Analysis.git
 cd walmart_advanced_analysis
-
 ```
+
 2. **Set Up Kaggle API
    - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
    - **Configure Kaggle**: 
@@ -239,18 +239,18 @@ This project is licensed under the MIT License.
 
 ---
 
-##Credits
+## Credits
 
 This project is inspired by open Walmart sales datasets and expands on ideas from prior public projects, with a focus on advanced SQL analytics and scalable pipeline design.
 
 ---
 
-##Contact
+## Contact
 
 For collaboration, feel free to connect via GitHub or email: sunilbisht1131995@gmail.com
 
 ---
 
-##Contributions Welcome!
+## Contributions Welcome!
 
 Feel free to fork this repo, add enhancements, or submit pull requests to improve or extend the analysis.
