@@ -1,6 +1,4 @@
-1. Revenue & Profit Rank of Branches (Window Functions)
-Find which branch ranks highest in sales and profit.
-
+--1. Revenue & Profit Rank of Branches (Window Functions) Find which branch ranks highest in sales and profit.
 
 WITH branch_summary AS (
   SELECT 
@@ -16,10 +14,9 @@ SELECT *,
   RANK() OVER (ORDER BY total_profit DESC) AS profit_rank
 FROM branch_summary;
 
-Insight: Quickly identify the best & worst performing branches in both sales & profitability.
+--Insight: Quickly identify the best & worst performing branches in both sales & profitability.
 
-2. Category Contribution % (to Total Sales & Profit)
-Shows each category’s percentage contribution toward total sales & profit.
+--2. Category Contribution % (to Total Sales & Profit) Shows each category’s percentage contribution toward total sales & profit.
 
 WITH category_summary AS (
   SELECT 
@@ -44,10 +41,9 @@ SELECT
 FROM category_summary c, totals t
 ORDER BY sales_percentage DESC;
 
-Insight: Helps with product strategy & inventory planning — focus on high-contribution categories.
+--Insight: Helps with product strategy & inventory planning — focus on high-contribution categories.
 
-3. Revenue Percentiles (Identifying VIP Transactions)
-Identify transactions in the top 10% revenue percentile (High-Value Customers).
+--3. Revenue Percentiles (Identifying VIP Transactions) Identify transactions in the top 10% revenue percentile (High-Value Customers).
 
 WITH percentiles AS (
   SELECT 
@@ -60,10 +56,9 @@ SELECT *
 FROM percentiles
 WHERE revenue_decile = 1;
 
-Insight: Focus on top 10% of high-spend customers for targeted marketing (loyalty programs, premium services).
+--Insight: Focus on top 10% of high-spend customers for targeted marketing (loyalty programs, premium services).
 
-4.Time-of-Day Sales Impact (Rolling Average by Hour)
-Smooth out hourly sales using moving average to detect trends.
+--4.Time-of-Day Sales Impact (Rolling Average by Hour) Smooth out hourly sales using moving average to detect trends.
 
 WITH hourly_sales AS (
   SELECT 
@@ -83,7 +78,7 @@ SELECT *
 FROM rolling_avg
 ORDER BY hour;
 
-Insight: Understand sustained peak hours instead of isolated spikes for better staffing & promotion planning.
+--Insight: Understand sustained peak hours instead of isolated spikes for better staffing & promotion planning.
 
 5. Dynamic Sales Targets (Sales % Achieved)
 Compare each branch’s sales against average branch target dynamically.
@@ -107,10 +102,9 @@ SELECT
 FROM branch_sales b, avg_target a
 ORDER BY target_achievement_percentage DESC;
 
-Insight: Measure branch efficiency relative to dynamic targets, helping optimize underperforming branches.
+--Insight: Measure branch efficiency relative to dynamic targets, helping optimize underperforming branches.
 
-6. Multi-Metric Ranking of Branches (Composite Index)
-Create a custom ranking based on multiple metrics (Sales + Profit + Customer Rating).
+--6. Multi-Metric Ranking of Branches (Composite Index) Create a custom ranking based on multiple metrics (Sales + Profit + Customer Rating).
 
 WITH branch_metrics AS (
   SELECT 
@@ -139,10 +133,9 @@ SELECT branch,
 FROM ranked
 ORDER BY composite_score ASC;
 
-Insight: Holistic branch ranking for balanced decision-making (not just sales-driven).
+--Insight: Holistic branch ranking for balanced decision-making (not just sales-driven).
 
-7. Product Pricing Optimization (Price Sensitivity Check)
-Analyze sales performance across unit price bands:
+--7. Product Pricing Optimization (Price Sensitivity Check) Analyze sales performance across unit price bands:
 
 SELECT 
   CASE 
@@ -157,9 +150,9 @@ FROM walmart_sales
 GROUP BY price_band
 ORDER BY total_revenue DESC;
 
-Insight: Reveals how pricing strategy impacts units sold, revenue, and customer satisfaction.
+--Insight: Reveals how pricing strategy impacts units sold, revenue, and customer satisfaction.
 
-Strategic Recommendations Based on These Analyses:
+/* Strategic Recommendations Based on These Analyses:
 Focus Campaigns: Target top-decile customers and high-profit categories.
 
 Branch Optimization: Shift resources to low-performing branches based on composite scores.
@@ -169,16 +162,4 @@ Staffing & Operations: Adjust staffing for peak hours based on moving average sa
 Pricing Strategy: Optimize high-demand price bands with favorable ratings.
 
 Retention Efforts: Identify branches with low correlation between spend & rating for customer experience initiatives
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
