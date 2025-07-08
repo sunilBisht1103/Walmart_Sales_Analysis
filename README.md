@@ -225,6 +225,35 @@ ORDER BY hour;
 ```
 Insight: Understand sustained peak hours instead of isolated spikes for better staffing & promotion planning.
 
+**Sales Forecast**
+![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/e98361693f8e43f4de0916f5421c90e1a3f309b6/Sales_Forecast.png)
+Here’s how to turn that downward forecast around and drive growth across your Walmart stores:
+
+1. Boost Sales with Strategic Promotions & Events
+Capitalize on seasonal moments: Launch early back-to-school events 
+Use flash sales and limited-time offers: Create urgency and foot traffic
+
+2. Reinforce Everyday Low Prices (EDLP)
+Maintain consistent low pricing—even under cost pressure—to build loyalty and gain share 
+Implement price intelligence tools (e.g., Savings Checker, repricing) to match local competition
+
+3. Leverage Tech & Data
+Adopt AI for personalized recommendations, inventory optimization, and digital twins for store layout testing 
+Use analytics: basket analysis, segmentation, demand forecasting—also weather-sensitive SKU planning .
+
+4. Elevate In‑Store Experience
+Optimize store layout, visual merchandising, and sensory elements (music/scent) to increase dwell time and basket size 
+Improve checkout flow: deploy self-checkout, mobile POS, queue busting, and Scan & Go tech
+
+5. Expand Omnichannel & Bundling
+Strengthen “bricks & clicks” model—online orders with in-store pick-up drive extra in-store purchases (~70% bump) 
+Offer bundles or kits to increase AOV and control slow-moving inventory 
+
+6. Tailor Products Locally & Diversify
+Customize assortments by branch: local preferences and seasonal demand boost relevance .
+Expand offerings (e.g., B2B bulk supplies, private-label ranges) to tap varied revenue streams 
+
+
 ## Future Enhancements
 
 Possible extensions to this project:
