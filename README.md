@@ -8,7 +8,7 @@ This project delivers advanced analytics on Walmart's transactional sales data u
 
 ---
 
-## 📌 Project Highlights
+## Project Highlights
 
 - **Advanced SQL Queries:**  
   Rolling averages, ranking, anomaly detection, price elasticity, and more.
@@ -18,7 +18,7 @@ This project delivers advanced analytics on Walmart's transactional sales data u
 
 ---
 
-## 📂 Project Structure
+##Project Structure
 ```plaintext
 Walmart_Sales_Analysis/
 │
@@ -42,19 +42,19 @@ Walmart_Sales_Analysis/
 ------
 
 
-## 📊 Key Features
+##Key Features
 
-- 📈 **Revenue & Profit Rank of Branches** 
-- 🕒 **Time-of-Day Sales Impact(Rolling Average by Hour)**
-- 📌 **Top Product Categories** by Profit and Sales
-- 💳 **Revenue Percentiles (Identifying VIP Transactions)**
-- 🔗 **Multi-Metric Ranking of Branches** Analysis
-- 👥 **Product Pricing Optimization (Price Sensitivity Check)**
-- 🔥 **Monthly sales prediction Analysis**
+- **Revenue & Profit Rank of Branches** 
+- **Time-of-Day Sales Impact(Rolling Average by Hour)**
+- **Top Product Categories** by Profit and Sales
+- **Revenue Percentiles (Identifying VIP Transactions)**
+- **Multi-Metric Ranking of Branches** Analysis
+- **Product Pricing Optimization (Price Sensitivity Check)**
+- **Monthly sales prediction Analysis**
 
 ---
 
-## ✅ Technologies Used
+##Technologies Used
 
 | Tool            | Purpose                             |
 |-----------------|------------------------------------|
@@ -66,7 +66,7 @@ Walmart_Sales_Analysis/
 
 ---
 
-## ⚙️ Setup Instructions
+##Setup Instructions
 
 1. **Clone the repository:**
 ```bash
@@ -239,18 +239,18 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🙌 Credits
+##Credits
 
 This project is inspired by open Walmart sales datasets and expands on ideas from prior public projects, with a focus on advanced SQL analytics and scalable pipeline design.
 
 ---
 
-## 📬 Contact
+##Contact
 
 For collaboration, feel free to connect via GitHub or email: sunilbisht1131995@gmail.com
 
 ---
 
-## 🌟 Contributions Welcome!
+##Contributions Welcome!
 
 Feel free to fork this repo, add enhancements, or submit pull requests to improve or extend the analysis.
