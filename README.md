@@ -230,7 +230,7 @@ Pricing Strategy: Optimize high-demand price bands with favorable ratings.
 
 
 **Sales Forecast**
-![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/e98361693f8e43f4de0916f5421c90e1a3f309b6/Sales_Forecast.png)
+![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/89ef28ff814d9ab814c56a290ecf4de8afd5dc36/Visuals/Figures/Sales_Forecast.png)
 Here’s how to turn that downward forecast around and drive growth across your Walmart stores:
 
 1. Boost Sales with Strategic Promotions & Events
