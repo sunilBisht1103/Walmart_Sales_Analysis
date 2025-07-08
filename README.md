@@ -76,40 +76,42 @@ cd walmart_advanced_analysis
    - **Configure Kaggle**: 
       - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
       - Use the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into your project.
-3. Download Walmart Sales Data
+3. **Download Walmart Sales Data**
    - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
    - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
    - **Storage**: Save the data in the `data/` folder for easy reference and access.
 
-4.Install Python Dependencies:
+4. **Install Python Dependencies:**
 ```python
 pip install -r requirements.txt
 ```
   **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
   
-5. Explore the Data
+5. **Explore the Data**
    - **Goal**: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
    - **Analysis**: Use functions like `.describe()`, and `.head()` to get a quick overview of the data structure and statistics.
    - 
-6. Data Cleaning
+6. **Data Cleaning**
    - **Remove Duplicates**: Identify and remove duplicate entries to avoid skewed results.
    - **Handle Missing Values**: Drop rows or columns with missing values if they are insignificant; fill values where essential.
    - **Fix Data Types**: Ensure all columns have consistent data types (e.g., dates as `datetime`, prices as `float`).
    - **Currency Formatting**: Use `.replace()` to handle and format currency values for analysis.
    
-7. Load Data into MySQL
+7. **Load Data into MySQL**
    - **Set Up Connections**: Connect to MySQL using `sqlalchemy` and load the cleaned data into database.
    - **Table Creation**: Set up tables in MySQL using Python SQLAlchemy to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
    - 
-8. SQL Analysis: Complex Queries and Business Problem Solving
+8. **Data Analysis**
+     SQL Analysis:
    - **Business Problem-Solving**: Write and execute SQL queries to answer critical business questions, such as:
      - Revenue trends across branches and categories.
      - Identifying best-selling product categories.
      - Analyzing peak sales periods and customer buying patterns.
     Python Analysis:
     -Predictive Analytics (Sales Forecast & Customer Churn Prediction)
-   - **Documentation**: Keep clear notes of each query's objective, approach, and results.
+
+ 9. **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
 ---
 
@@ -222,15 +224,21 @@ ORDER BY hour;
 ```
 Insight: Understand sustained peak hours instead of isolated spikes for better staffing & promotion planning.
 
-Strategic Recommendations Based on These Analyses:
+**Strategic Recommendations Based on These Analyses:**
+
 Focus Campaigns: Target top-decile customers and high-profit categories.
+
 Branch Optimization: Shift resources to low-performing branches based on composite scores.
+
 Staffing & Operations: Adjust staffing for peak hours based on moving average sales.
+
 Pricing Strategy: Optimize high-demand price bands with favorable ratings.
 
 
 **Sales Forecast**
 ![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/89ef28ff814d9ab814c56a290ecf4de8afd5dc36/Visuals/Figures/Sales_Forecast.png)
+
+
 Here’s how to turn that downward forecast around and drive growth across your Walmart stores:
 
 1. Boost Sales with Strategic Promotions & Events
