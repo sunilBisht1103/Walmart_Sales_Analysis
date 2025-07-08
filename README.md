@@ -42,7 +42,7 @@ Walmart_Sales_Analysis/
 ------
 
 
-## 📊 Key Features & Insights
+## 📊 Key Features
 
 - 📈 **Revenue & Profit Rank of Branches** 
 - 🕒 **Time-of-Day Sales Impact(Rolling Average by Hour)**
@@ -115,6 +115,112 @@ pip install -r requirements.txt
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
 ---
+
+## Results and Insights
+
+This section will include your analysis findings:
+
+**Sales Insights**:
+-Revenue & Profit Rank of Branches
+```sql
+WITH branch_summary AS (
+  SELECT 
+    branch,
+    city,
+    SUM(total) AS total_sales,
+    SUM(profit_margin) AS total_profit
+  FROM walmart
+  GROUP BY branch, city
+)
+SELECT *,
+  RANK() OVER (ORDER BY total_sales DESC) AS sales_rank,
+  RANK() OVER (ORDER BY total_profit DESC) AS profit_rank
+FROM branch_summary;
+```
+Insight: Quickly identify the best & worst performing branches in both sales & profitability.
+
+-Category Contribution % (to Total Sales & Profit)
+```sql
+WITH category_summary AS (
+  SELECT 
+    category,
+    SUM(total) AS total_sales,
+    SUM(profit_margin) AS total_profit
+  FROM walmart
+  GROUP BY category
+),
+totals AS (
+  SELECT 
+    SUM(total) AS overall_sales,
+    SUM(profit_margin) AS overall_profit
+  FROM walmart_sales
+)
+SELECT 
+  c.category,
+  c.total_sales,
+  ROUND((c.total_sales / t.overall_sales) * 100, 2) AS sales_percentage,
+  c.total_profit,
+  ROUND((c.total_profit / t.overall_profit) * 100, 2) AS profit_percentage
+FROM category_summary c, totals t
+ORDER BY sales_percentage DESC;
+```
+Insight: Helps with product strategy & inventory planning — focus on high-contribution categories.
+
+**Pricing**: 
+-Product Pricing Optimization (Price Sensitivity Check)
+```sql
+SELECT 
+  CASE 
+    WHEN unit_price < 50 THEN 'Low Price'
+    WHEN unit_price BETWEEN 50 AND 100 THEN 'Mid Price'
+    ELSE 'High Price'
+  END AS price_band,
+  SUM(quantity) AS total_units_sold,
+  SUM(total) AS total_revenue,
+  ROUND(AVG(rating), 2) AS avg_rating
+FROM walmart_sales
+GROUP BY price_band
+ORDER BY total_revenue DESC;
+```
+Insight: Reveals how pricing strategy impacts units sold, revenue, and customer satisfaction.
+
+**Customer Behavior**: High-Value Customers and peak shopping hours.
+-Revenue Percentiles (Identifying VIP Transactions)
+```sql
+WITH percentiles AS (
+  SELECT 
+    invoice_id,
+    total,
+    NTILE(10) OVER (ORDER BY total DESC) AS revenue_decile
+  FROM walmart
+)
+SELECT *
+FROM percentiles
+WHERE revenue_decile = 1;
+```
+Insight: Focus on top 10% of high-spend customers for targeted marketing (loyalty programs, premium services).
+
+-Time-of-Day Sales Impact (Rolling Average by Hour)
+```sql
+WITH hourly_sales AS (
+  SELECT 
+    HOUR(TIME(time)) AS hour,
+    SUM(total) AS total_sales
+  FROM walmart
+  GROUP BY hour
+),
+rolling_avg AS (
+  SELECT 
+    hour,
+    total_sales,
+    ROUND(AVG(total_sales) OVER (ORDER BY hour ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING), 2) AS moving_avg_sales
+  FROM hourly_sales
+)
+SELECT *
+FROM rolling_avg
+ORDER BY hour;
+```
+Insight: Understand sustained peak hours instead of isolated spikes for better staffing & promotion planning.
 
 ## Future Enhancements
 
