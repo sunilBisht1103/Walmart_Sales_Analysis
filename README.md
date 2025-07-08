@@ -1,6 +1,6 @@
 # 🛒 Walmart Sales Analytics (SQL + Python Project)
-g
-![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/e98361693f8e43f4de0916f5421c90e1a3f309b6/walmart_image.pn)
+
+![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/e98361693f8e43f4de0916f5421c90e1a3f309b6/walmart_image.png)
 
 
 
