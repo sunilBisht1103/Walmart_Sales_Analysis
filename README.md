@@ -11,7 +11,7 @@ This project delivers advanced analytics on Walmart's transactional sales data u
 ## 📌 Project Highlights
 
 - **Advanced SQL Queries:**  
-  Rolling averages, ranking, anomaly detection, profitability heatmaps, customer segmentation, price elasticity, and more.
+  Rolling averages, ranking, anomaly detection, price elasticity, and more.
   
 - **ETL Pipeline (Python):**  
   Automated extraction, transformation, and loading (ETL) of raw transactional data into a relational database.
@@ -27,28 +27,13 @@ walmart_advanced_analysis/
 │ └── processed/ # Cleaned & aggregated datasets
 │
 ├── sql/ # SQL scripts
-│ ├── 00_schema.sql # Table creation, indexes
-│ ├── 01_basic_queries.sql # Basic summary queries
-│ ├── 02_advanced_queries.sql # Advanced analytics queries
-│ └── views/ # (Optional) materialized views
-│
+|
 ├── src/ # Python ETL modules
-│ ├── db.py # DB connection utilities
-│ ├── extract.py # Load raw data
-│ ├── transform.py # Clean & transform data
-│ └── load.py # Load data into DB
-│
-├── notebooks/ # Jupyter Notebooks for analysis
-│ ├── eda.ipynb # Exploratory data analysis
-│ └── advanced_analysis.ipynb # Advanced visual analytics
-│
-├── reports/ # Auto-generated reports & figures
-│ ├── figures/
-│ └── summary_report.md
-│
-├── tests/ # Tests for DB & SQL queries
-│ ├── test_db.py
-│ └── test_queries.sql
+│ ├── analysis.ipynb # Exploratory data analysis
+├
+├── Visuals/ # generated Figures & images
+│ ├── figures
+│ └── images
 │
 ├── .gitignore # Files to ignore in Git
 ├── requirements.txt # Python dependencies
