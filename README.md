@@ -30,12 +30,9 @@ Walmart_Sales_Analysis/
 |
 ├── Src/ # Python ETL modules
 │ ├── analysis.ipynb # Exploratory data analysis
-├
 ├── Visuals/ # generated Figures & images
 │ ├── figures
 │ └── images
-│
-├── .gitignore # Files to ignore in Git
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 ```
@@ -74,7 +71,7 @@ git clone https://github.com/sunilBisht1103/Walmart_Sales_Analysis.git
 cd walmart_advanced_analysis
 ```
 
-2. **Set Up Kaggle API
+2. **Set Up Kaggle API**
    - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
    - **Configure Kaggle**: 
       - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
