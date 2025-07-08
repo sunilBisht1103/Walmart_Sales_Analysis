@@ -120,7 +120,8 @@ pip install -r requirements.txt
 
 This section will include your analysis findings:
 
-**Sales Insights**:
+**Sales Insights**
+
 -Revenue & Profit Rank of Branches
 ```sql
 WITH branch_summary AS (
@@ -166,7 +167,8 @@ ORDER BY sales_percentage DESC;
 ```
 Insight: Helps with product strategy & inventory planning — focus on high-contribution categories.
 
-**Pricing**: 
+**Pricing**
+
 -Product Pricing Optimization (Price Sensitivity Check)
 ```sql
 SELECT 
@@ -184,7 +186,8 @@ ORDER BY total_revenue DESC;
 ```
 Insight: Reveals how pricing strategy impacts units sold, revenue, and customer satisfaction.
 
-**Customer Behavior**: High-Value Customers and peak shopping hours.
+**Customer Behavior**
+
 -Revenue Percentiles (Identifying VIP Transactions)
 ```sql
 WITH percentiles AS (
