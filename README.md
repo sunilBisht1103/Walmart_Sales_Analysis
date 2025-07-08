@@ -106,12 +106,12 @@ pip install -r requirements.txt
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
    - 
 8. SQL Analysis: Complex Queries and Business Problem Solving
-   - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
+   - **Business Problem-Solving**: Write and execute SQL queries to answer critical business questions, such as:
      - Revenue trends across branches and categories.
      - Identifying best-selling product categories.
-     - Sales performance by time.
      - Analyzing peak sales periods and customer buying patterns.
-     - Profit margin analysis by branch and category.
+    Python Analysis:
+    -Predictive Analytics (Sales Forecast & Customer Churn Prediction)
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
 ---
@@ -225,6 +225,13 @@ ORDER BY hour;
 ```
 Insight: Understand sustained peak hours instead of isolated spikes for better staffing & promotion planning.
 
+Strategic Recommendations Based on These Analyses:
+Focus Campaigns: Target top-decile customers and high-profit categories.
+Branch Optimization: Shift resources to low-performing branches based on composite scores.
+Staffing & Operations: Adjust staffing for peak hours based on moving average sales.
+Pricing Strategy: Optimize high-demand price bands with favorable ratings.
+
+
 **Sales Forecast**
 ![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/e98361693f8e43f4de0916f5421c90e1a3f309b6/Sales_Forecast.png)
 Here’s how to turn that downward forecast around and drive growth across your Walmart stores:
@@ -253,6 +260,17 @@ Offer bundles or kits to increase AOV and control slow-moving inventory
 Customize assortments by branch: local preferences and seasonal demand boost relevance .
 Expand offerings (e.g., B2B bulk supplies, private-label ranges) to tap varied revenue streams 
 
+**Churn Risk Detection (Customers with Low Ratings & Visits)**
+
+1.Activate Pre‑Churn Interventions
+-Personalized outreach: Send discounts, tailored recommendations, or engage via their preferred channel (email, SMS, app) .
+-Improve onboarding and service: Contact customers with issues (low ratings) to fix problems and boost satisfaction 
+-Loyalty and value reinforcement: Offer perks, tiered rewards, or bundling to increase CLV 
+
+2. Implement Win‑Back & Reactivation Campaigns
+For those already churned or flagged high-risk:
+-Timed outreach: Send incentives or exclusive offers at right intervals—too early or too late reduces effectiveness 
+-Segmented messaging: Use reasons for churn (e.g., price vs. experience) to craft relevant campaigns
 
 ## Future Enhancements
 
