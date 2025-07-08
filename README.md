@@ -20,15 +20,15 @@ This project delivers advanced analytics on Walmart's transactional sales data u
 
 ## 📂 Project Structure
 ```plaintext
-walmart_advanced_analysis/
+Walmart_Sales_Analysis/
 │
-├── data/ # Raw and processed data files
+├── Data/ # Raw and processed data files
 │ ├── raw/ # Original CSV / SQL dumps
 │ └── processed/ # Cleaned & aggregated datasets
 │
-├── sql/ # SQL scripts
+├── SQL_Scripts/ # SQL scripts
 |
-├── src/ # Python ETL modules
+├── Src/ # Python ETL modules
 │ ├── analysis.ipynb # Exploratory data analysis
 ├
 ├── Visuals/ # generated Figures & images
