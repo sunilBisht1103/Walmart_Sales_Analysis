@@ -235,7 +235,7 @@ Staffing & Operations: Adjust staffing for peak hours based on moving average sa
 Pricing Strategy: Optimize high-demand price bands with favorable ratings.
 
 
-**Sales Forecast**
+**Sales Forecast Prediction**
 
 
 ![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/89ef28ff814d9ab814c56a290ecf4de8afd5dc36/Visuals/Figures/Sales_Forecast.png)
@@ -276,7 +276,7 @@ Expand offerings (e.g., B2B bulk supplies, private-label ranges) to tap varied r
 
 -Loyalty and value reinforcement: Offer perks, tiered rewards.
 
-2. Implement Win‑Back & Reactivation Campaigns
+2.Implement Win‑Back & Reactivation Campaigns
 For those already churned or flagged high-risk:
 
 -Timed outreach: Send incentives or exclusive offers at right intervals—too early or too late reduces effectiveness.
