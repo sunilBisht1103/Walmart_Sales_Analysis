@@ -225,7 +225,7 @@ ORDER BY hour;
 Insight: Understand sustained peak hours instead of isolated spikes for better staffing & promotion planning.
 
 **Strategic Recommendations Based on These Analyses:**
-
+```plaintext
 Focus Campaigns: Target top-decile customers and high-profit categories.
 
 Branch Optimization: Shift resources to low-performing branches based on composite scores.
@@ -233,14 +233,14 @@ Branch Optimization: Shift resources to low-performing branches based on composi
 Staffing & Operations: Adjust staffing for peak hours based on moving average sales.
 
 Pricing Strategy: Optimize high-demand price bands with favorable ratings.
-
+```
 
 **Sales Forecast Prediction**
 
 
 ![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/89ef28ff814d9ab814c56a290ecf4de8afd5dc36/Visuals/Figures/Sales_Forecast.png)
 
-
+```plaintext
 Here’s how to turn that downward forecast around and drive growth across your Walmart stores:
 
 1. Boost Sales with Strategic Promotions & Events
@@ -266,9 +266,9 @@ Offer bundles or kits to increase AOV and control slow-moving inventory
 6. Tailor Products Locally & Diversify
 Customize assortments by branch: local preferences and seasonal demand boost relevance .
 Expand offerings (e.g., B2B bulk supplies, private-label ranges) to tap varied revenue streams 
-
+```
 **Churn Risk Detection (Customers with Low Ratings & Visits)**
-
+```plaintext
 1.Activate Pre‑Churn Interventions
 -Personalized outreach: Send discounts, tailored recommendations, or engage via their preferred channel (email, SMS, app).
 
@@ -282,7 +282,7 @@ For those already churned or flagged high-risk:
 -Timed outreach: Send incentives or exclusive offers at right intervals—too early or too late reduces effectiveness.
 
 -Segmented messaging: Use reasons for churn (e.g., price vs. experience) to craft relevant campaigns.
-
+```
 ## Future Enhancements
 
 Possible extensions to this project:
