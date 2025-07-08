@@ -89,9 +89,10 @@ walmart_advanced_analysis/
 git clone https://github.com/sunilBisht1103/Walmart_Sales_Analysis.git
 cd walmart_advanced_analysis
 
+```
 
 Install Python Dependencies:
-
+```python
 pip install -r requirements.txt
 Set up PostgreSQL Database (or SQLite):
 
@@ -101,6 +102,7 @@ Run ETL Pipeline:
 python -m src.extract
 python -m src.transform
 python -m src.load
+```
 Run SQL Queries:
 
 Basic: sql/01_basic_queries.sql
@@ -127,20 +129,25 @@ Hourly Sales Distribution (%)
 
 Monthly Sales Growth (YoY Comparison)
 
-✅ Testing
-Run tests for DB connections and SQL query validation:
+---
 
-pytest tests/
+## License
 
-```
-📄 License
-MIT License (Specify here if different)
-```
-🙌 Credits
+This project is licensed under the MIT License. 
+
+---
+
+## 🙌 Credits
+
 This project is inspired by open Walmart sales datasets and expands on ideas from prior public projects, with a focus on advanced SQL analytics and scalable pipeline design.
-```
-📬 Contact
+
+---
+
+## 📬 Contact
+
 For collaboration, feel free to connect via GitHub or email: sunilbisht1131995@gmail.com
-```
+
+---
 🌟 Contributions Welcome!
+
 Feel free to fork this repo, add enhancements, or submit pull requests to improve or extend the analysis.
