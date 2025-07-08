@@ -1,4 +1,7 @@
 # 🛒 Walmart Sales Analytics (SQL + Python Project)
+g
+![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/e98361693f8e43f4de0916f5421c90e1a3f309b6/walmart_image.pn)
+
 
 
 This project delivers advanced analytics on Walmart's transactional sales data using **SQL** and **Python**. It extends beyond basic analysis by incorporating advanced SQL techniques, Python, time-series analysis, anomaly detection, profitability optimization, and customer segmentation.
