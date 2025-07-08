@@ -236,6 +236,8 @@ Pricing Strategy: Optimize high-demand price bands with favorable ratings.
 
 
 **Sales Forecast**
+
+
 ![Project Pipeline](https://github.com/sunilBisht1103/Walmart_Sales_Analysis/blob/89ef28ff814d9ab814c56a290ecf4de8afd5dc36/Visuals/Figures/Sales_Forecast.png)
 
 
